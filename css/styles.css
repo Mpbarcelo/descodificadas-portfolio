@@ -1,0 +1,397 @@
+/* Estilo geral */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --cor1: #00ff08;
+  --cor2: #f9f9f9;
+}
+body {
+  height: 100vh;
+  background-color: #000;
+}
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+h2.titulo {
+  color: var(--cor2);
+  font-size: 38px;
+  text-align: center;
+}
+/* Estilo do container */
+header {
+  padding: 10px 4%;
+}
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: var(--cor2);
+  text-decoration: none;
+  display: inline-block;
+}
+header a:hover {
+  color: #5c5c5c;
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+header,
+h1 {
+  font-size: 20px;
+  color: var(--cor2);
+  text-align: center;
+  justify-content: center;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  font-size: 16px;
+  display: inline-block;
+  padding: 0 20px;
+}
+.img-txt {
+  display: flex;
+}
+
+.img-txt {
+  background-image: url("../img/cabecaho.jpg");
+  width: 100vw;
+  height: 430px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.img h2 {
+  margin-top: 50px;
+}
+.img h2,
+.img h3 {
+  color: var(--cor2);
+  text-align: center;
+}
+
+.img h2 {
+  font-size: 50px;
+}
+
+.img h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 4;
+  letter-spacing: 2px;
+}
+/* Estilo do topo do site */
+.container {
+  padding: 40px 4%;
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-txt {
+  color: var(--cor2);
+  font-size: 40px;
+  margin-left: 120px;
+  line-height: 1.3;
+  flex-direction: column;
+}
+span {
+  color: var(--cor1);
+}
+
+.container-img {
+  animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+.container-img img {
+  width: 600px;
+  height: 600px;
+  margin-left: 300px;
+}
+/* Define a animação chamada 'flutuar' */
+@keyframes flutuar {
+  0% {
+    transform: translateY(0); /* Comece sem movimento */
+  }
+  50% {
+    transform: translateY(
+      -20px
+    ); /* Flutue para cima 20 pixels na metade da animação */
+  }
+  100% {
+    transform: translateY(0); /* Volte à posição inicial */
+  }
+}
+.btn-contato button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: var(--cor2);
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn-contato button:hover {
+  box-shadow: 0 0 8px #f9f9f9c2;
+  transform: scale(1.2);
+}
+.container-txt a {
+  color: #000;
+}
+/* EStilo das especialidades */
+section.especialidades .flex {
+  display: flex;
+  gap: 60px;
+}
+section.especialidades {
+  padding: 40px 4%;
+}
+.especialidades .especialidades-box {
+  margin-top: 45px;
+  border-radius: 20px;
+  color: var(--cor2);
+  padding: 40px;
+  transition: 0.2s;
+}
+.especialidades .especialidades-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #f9f9f98f;
+}
+.especialidades .especialidades-box i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  color: var(--cor1);
+}
+.especialidades .especialidades-box h3 {
+  font-size: 28px;
+  margin: 25px 0;
+  text-align: center;
+}
+.especialidades .especialidades-box p {
+  text-align: justify;
+}
+/* Estilos do sobre */
+section.sobre .flex {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+section.sobre img {
+  border-radius: 50%;
+  box-shadow: 0 0 20px #5a5c5a;
+}
+section.sobre {
+  padding: 80px 4%;
+}
+.sobre .txt-sobre {
+  color: var(--cor2);
+}
+.sobre .txt-sobre h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.sobre .txt-sobre h2 span {
+  color: var(--cor1);
+  display: block;
+}
+.sobre .txt-sobre p {
+  margin: 20px 0;
+  text-align: justify;
+  line-height: 20px;
+}
+.btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--cor1);
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 4px;
+  transition: 0.2s;
+}
+.btn-social button:hover,
+form .btn-enviar input:hover {
+  box-shadow: 0 0 8px var(--cor1);
+  transform: scale(1.2);
+}
+/* Estilo do portfólio */
+
+section.portfolio {
+  padding: 80px 4%;
+  box-shadow: 0 0 40px 10px #f9f9f963;
+}
+section.portfolio .flex {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3.75em;
+}
+.img-port {
+  width: 360px;
+  height: 460px;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: 0.8s;
+  cursor: pointer;
+  border-radius: 40px;
+  position: relative;
+}
+.img-port:hover {
+  background-position: 100% 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000b8;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 4;
+  opacity: 0;
+  transition: 0.5s;
+}
+.overlay:hover {
+  opacity: 1;
+}
+.overlay a {
+  align-items: center;
+  text-decoration: none;
+  color: var(--cor2);
+}
+.overlay a span {
+  text-align: center;
+  text-decoration: none;
+  color: #91cf8b;
+}
+.overlay-txt p {
+  font-size: 1em;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  color: #fff;
+}
+.txt {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 1.4;
+  color: var(--cor2);
+  text-align: justify;
+}
+.portfolio h4 {
+  color: var(--cor2);
+  text-align: center;
+  font-size: 30px;
+}
+/* Estilo do formulário de contato */
+section.formulario {
+  padding: 80px 4%;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+form input,
+form textarea {
+  width: 100%;
+  background-color: #242424;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: var(--cor2);
+  font-size: 18px;
+}
+form textarea {
+  resize: none;
+  max-height: 200px;
+}
+form .btn-enviar {
+  margin-top: 20px;
+  text-align: center;
+}
+form .btn-enviar input {
+  width: 120px;
+  background-color: var(--cor1);
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Estilo da Localização */
+.maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+/* Estilo do rodapé */
+.creditos {
+  color: var(--cor2);
+  text-align: center;
+}
+.creditos a {
+  color: var(--cor1);
+  text-decoration: none;
+}
+footer {
+  padding: 40px 4%;
+  box-shadow: 0 0 2.5em 0.625em #ffffff1d;
+}
+
+footer .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .line-footer {
+  padding: 20px 0;
+}
+
+.borda {
+  border-bottom: 2px solid var(--cor1);
+}
+
+footer .line-footer p i {
+  color: var(--cor1);
+  font-size: 22px;
+}
+
+footer .line-footer p a {
+  color: var(--cor2);
+  text-decoration: none;
+}
