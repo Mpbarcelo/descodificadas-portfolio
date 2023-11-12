@@ -25,7 +25,7 @@ h2.titulo {
   font-size: 38px;
   text-align: center;
 }
-/* Estilo do container */
+/* Estilo do header */
 header {
   padding: 10px 4%;
 }
@@ -74,6 +74,7 @@ header nav ul li {
   justify-content: center;
   flex-direction: column;
 }
+
 .img h2 {
   margin-top: 50px;
 }
@@ -236,8 +237,8 @@ form .btn-enviar input:hover {
 /* Estilo do portfólio */
 
 section.portfolio {
-  padding: 80px 4%;
-  box-shadow: 0 0 40px 10px #f9f9f963;
+  padding: 5em 4%;
+  box-shadow: 0 0 2.5em 0.625em #ffffff1d;
 }
 section.portfolio .flex {
   align-items: flex-start;
@@ -246,17 +247,26 @@ section.portfolio .flex {
   margin-top: 3.75em;
 }
 .img-port {
-  width: 360px;
-  height: 460px;
+  width: 22.5em;
+  height: 28.75em;
+  max-width: 360px;
+  margin: 0 auto;
+  background-color: #00ff08;
   background-size: cover;
   background-position: 100% 0%;
-  transition: 0.8s;
+  transition: 8s;
   cursor: pointer;
-  border-radius: 40px;
+  border-radius: 2.5em;
   position: relative;
+  max-width: 360px;
+  margin: 0 auto;
 }
 .img-port:hover {
-  background-position: 100% 100%;
+  background-position: 100%;
+}
+.img-port {
+  max-width: 360px;
+  margin: 0 auto;
 }
 .overlay {
   position: absolute;
@@ -272,7 +282,7 @@ section.portfolio .flex {
   justify-content: center;
   font-size: 16px;
   font-weight: 600;
-  line-height: 4;
+  line-height: 4em;
   opacity: 0;
   transition: 0.5s;
 }
@@ -290,13 +300,25 @@ section.portfolio .flex {
   color: #91cf8b;
 }
 .overlay-txt p {
+  width: 100%;
   font-size: 1em;
   padding: 20px;
+  line-height: 1.5;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: justify;
   color: #fff;
+}
+.overlay-txt p a {
+  text-decoration: none;
+  font-size: 1em;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #91cf8b;
 }
 .txt {
   margin-top: 30px;
@@ -394,4 +416,10 @@ footer .line-footer p i {
 footer .line-footer p a {
   color: var(--cor2);
   text-decoration: none;
+}
+.line-footer-txt {
+  color: var(--cor2);
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
