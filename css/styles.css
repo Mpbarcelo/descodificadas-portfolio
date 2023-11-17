@@ -264,10 +264,7 @@ section.portfolio .flex {
 .img-port:hover {
   background-position: 100%;
 }
-.img-port {
-  max-width: 360px;
-  margin: 0 auto;
-}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -332,6 +329,12 @@ section.portfolio .flex {
   color: var(--cor2);
   text-align: center;
   font-size: 30px;
+}
+/* Estilos padrão para o vídeo */
+#coracaoVideo {
+  width: 900px; /* Garante que o vídeo ocupe toda a largura do contêiner pai */
+  height: auto; /* Mantém a proporção do vídeo */
+  max-width: 100%; /* Garante que o vídeo não ultrapasse a largura do contêiner pai */
 }
 /* Estilo do formulário de contato */
 section.formulario {
@@ -422,4 +425,106 @@ footer .line-footer p a {
   display: flex;
   text-align: center;
   justify-content: center;
+}
+
+/* Estilos para telas menores, como dispositivos móveis */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px; /* Tamanho da fonte menor para telas menores */
+  }
+
+  .interface {
+    padding: 0 20px; /* Reduz o padding para telas menores */
+  }
+
+  .container {
+    flex-direction: column; /* Altera o layout para empilhado em coluna */
+    align-items: center;
+    text-align: center;
+    width: 90vw; /* Ajusta a largura para ocupar mais espaço na tela */
+    margin: 0 auto; /* Centraliza o conteúdo */
+  }
+
+  .container-txt {
+    margin-left: 0; /* Remove a margem esquerda */
+    font-size: 24px; /* Reduz o tamanho da fonte */
+    line-height: 1.5;
+  }
+
+  .container-img img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-left: 0; /* Remove a margem esquerda */
+    margin-top: 20px; /* Adiciona um espaço superior */
+  }
+
+  .container {
+    flex-direction: column; /* Muda a direção do container para empilhar em telas menores */
+    align-items: center;
+    text-align: center;
+  }
+
+  .container-img img {
+    width: 100%; /* Imagens ocupam a largura total do contêiner em telas menores */
+    height: auto;
+    margin-left: 0; /* Remove a margem esquerda em telas menores */
+  }
+  .flex {
+    flex-direction: column; /* Empilhar os itens em telas menores */
+    align-items: center;
+  }
+
+  .img-port {
+    width: 100%; /* Largura total para telas menores */
+    max-width: none; /* Remove a largura máxima para ocupar a tela inteira */
+    margin-bottom: 2em; /* Adiciona um espaço entre as imagens */
+  }
+  section.sobre .flex {
+    flex-direction: column; /* Altera para layout de coluna em telas menores */
+    gap: 30px; /* Reduz o espaçamento entre os elementos */
+    text-align: center; /* Centraliza o conteúdo */
+  }
+
+  section.sobre img {
+    width: calc(100vmin - 64px); /* Reduz o tamanho da imagem */
+    height: calc(100vmin - 64px);
+    margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+  }
+
+  .sobre .txt-sobre h2 {
+    font-size: 30px; /* Reduz o tamanho do título */
+    line-height: 30px;
+    margin-bottom: 20px; /* Reduz a margem inferior do título */
+  }
+
+  .sobre .txt-sobre p {
+    font-size: 16px; /* Reduz o tamanho do texto */
+    line-height: 24px;
+  }
+
+  .btn-social button {
+    width: 50px; /* Reduz o tamanho dos botões sociais */
+    height: 50px;
+    font-size: 18px; /* Reduz o tamanho da fonte dos botões sociais */
+  }
+
+  .maps {
+    margin-top: 20px; /* Reduzir a margem para telas menores */
+  }
+
+  /* Define largura máxima do mapa para ocupar a largura total do contêiner */
+  .maps iframe {
+    width: 100%;
+    max-width: 100%; /* Ajustar a largura máxima */
+    height: 300px; /* Definir uma altura fixa para o mapa em telas menores */
+  }
+  footer .flex {
+    flex-direction: column; /* Empilhar os elementos em coluna para telas menores */
+    align-items: center;
+  }
+
+  .line-footer {
+    text-align: center; /* Centralizar o texto para telas menores */
+    padding: 10px 0; /* Reduzir o espaçamento entre as linhas para telas menores */
+  }
 }
