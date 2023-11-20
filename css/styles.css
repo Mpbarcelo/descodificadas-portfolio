@@ -336,6 +336,17 @@ section.portfolio .flex {
   height: auto; /* Mantém a proporção do vídeo */
   max-width: 100%; /* Garante que o vídeo não ultrapasse a largura do contêiner pai */
 }
+.heart {
+  border: 2px solid #000; /* Adiciona uma borda preta com 2px de largura */
+  padding: 20px; /* Adiciona um preenchimento interno de 20px */
+  background-color: #ead1ea; /* Define uma cor de fundo para a div */
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+.heart p{
+  color: #8e44ad; 
+}
+
 /* Estilo do formulário de contato */
 section.formulario {
   padding: 80px 4%;
