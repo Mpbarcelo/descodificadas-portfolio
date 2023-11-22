@@ -262,7 +262,7 @@ section.portfolio .flex {
   margin: 0 auto;
 }
 .img-port:hover {
-  background-position: 100%;
+  background-position: 100% 100%;
 }
 
 .overlay {
@@ -332,14 +332,14 @@ section.portfolio .flex {
 }
 /* Estilos padrão para o vídeo */
 #coracaoVideo {
-  width: 900px; /* Garante que o vídeo ocupe toda a largura do contêiner pai */
-  height: auto; /* Mantém a proporção do vídeo */
-  max-width: 100%; /* Garante que o vídeo não ultrapasse a largura do contêiner pai */
+  width: 900px; 
+  height: auto; 
+  max-width: 100%; 
 }
 .heart {
-  border: 2px solid #000; /* Adiciona uma borda preta com 2px de largura */
-  padding: 20px; /* Adiciona um preenchimento interno de 20px */
-  background-color: #ead1ea; /* Define uma cor de fundo para a div */
+  border: 2px solid #000; 
+  padding: 20px; 
+  background-color: #ead1ea; 
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
 }
