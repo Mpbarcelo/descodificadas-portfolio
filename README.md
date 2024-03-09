@@ -1,7 +1,5 @@
  # Portfólio Descodificadas - Trilha 01
 
-![Pagina inicial do projeto](./img/descodificadas.png)
-
 Bem-vindo ao meu portfólio desenvolvido durante a trilha 01 do programa Descodificadas. Aqui você encontrará alguns projetos que demonstram minhas habilidades e conhecimentos adquiridos ao longo do curso.
 
 ## Projetos
