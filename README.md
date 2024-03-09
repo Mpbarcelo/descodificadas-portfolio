@@ -1,5 +1,4 @@
-foto do perfil
-melhore o arquivo markdow para readme                                            # Portfólio Descodificadas - Trilha 01
+ # Portfólio Descodificadas - Trilha 01
 
 ![Pagina inicial do projeto](./img/descodificadas.png)
 
