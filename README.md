@@ -49,7 +49,7 @@ Sou tecnóloga em logística buscando ampliar meu horizonte profissional, atualm
 
 - Email: marcia-333@hotmail.com
 - LinkedIn: [mpbarcelo](https://www.linkedin.com/in/mpbarcelo/)
-- Outras Redes Sociais: [GitHub](lhttps://github.com/Mpbarcelo)
+- Github: [Mpbarcelo](lhttps://github.com/Mpbarcelo)
 
 Sinta-se à vontade para entrar em contato para discutir colaborações, oportunidades ou apenas para trocar ideias sobre desenvolvimento!
 
