@@ -22,11 +22,10 @@ Durante a trilha 1 do "Descodificadas", realizei uma atividade prática exploran
 ![Projeto 3](./img/box.png)
 
 Projeto Box Model desenvolvido também na tilha 1 do curso descodificadas, foram utilizados html e css.
-<center>
-  <h3>4. [Animação Coração pulsante](https://mpbarcelo.github.io/animacoes-descodificadas/)</h3>
-  <img src="./img/video-corao-ezgif.com-crop.gif" alt="Coração pulsante">
-</center>
 
+### 4. [Animação Coração pulsante](https://mpbarcelo.github.io/animacoes-descodificadas/)
+
+![Animação Coração pulsante](./img/video-corao-ezgif.com-crop.gif)
 
 Durante a trilha 1 de "Descodificadas", desenvolvi um trabalho envolvente e criativo, o Coração Pulsando que combinou habilidades em HTML e CSS para criar uma experiência visualmente impactante. A essência do projeto foi dar vida ao coração pulsante através de técnicas de animação.
 
