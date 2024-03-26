@@ -49,3 +49,4 @@ Sou tecnóloga em logística buscando ampliar meu horizonte profissional, atualm
 - Github: [Mpbarcelo](https://github.com/Mpbarcelo)
 
 Sinta-se à vontade para entrar em contato para discutir colaborações, oportunidades ou apenas para trocar ideias sobre desenvolvimento!
+💜 Obrigada por visitar nosso repositório!
